@@ -1,0 +1,51 @@
+/** paleta de color 
+#FFE6E6
+#pink
+#deeppink
+#810955
+
+mis fuentes
+font-family: 'Merriweather', serif;
+font-family: 'PT Serif', serif;
+**/
+@import "./utilities/variables";
+@import "./layout/body";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=PT+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slide{
+    margin-top: 0rem;
+    padding-top: 0rem;
+    img{
+        margin-top: 0%;
+        height: 75vh;
+    }
+}
+
+.parrafoRedes{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.flex{
+    display: flex;
+    justify-content: left;
+}
+li{
+    display: inline-block;
+    display: flex;
+    font-size: 19px;
+    justify-content: flex-start;
+    /*font-weight: bolder;*/
+}

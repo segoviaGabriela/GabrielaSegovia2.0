@@ -1,0 +1,14 @@
+header{
+    color: mediumvioletred;
+    background-color: white;
+    grid-area: header;
+}
+.nav-item{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.pink{
+    background-color:$fondo;
+}

@@ -1,0 +1,19 @@
+main{
+    color: black;
+    background-color: #FFE6E6;
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: left;
+    grid-area: main;
+}
+.main-header{
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: fixed;
+        z-index:1;
+    }
+.main-content{
+        padding-top: 11rem;
+    }
