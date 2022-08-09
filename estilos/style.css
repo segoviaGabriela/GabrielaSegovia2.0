@@ -9,6 +9,12 @@ font-family: 'Merriweather', serif;
 font-family: 'PT Serif', serif;
 **/
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=PT+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   min-height: 80vh;
   text-align: center;
@@ -31,6 +37,13 @@ footer {
   margin-bottom: 0;
 }
 
+.parrafoRedes {
+  text-decoration: none;
+}
+.parrafoRedes:hover {
+  text-decoration: underline;
+}
+
 header {
   color: mediumvioletred;
   background-color: white;
@@ -46,6 +59,19 @@ header {
 
 .pink {
   background-color: pink;
+}
+
+/*
+.flex{
+    display: flex;
+
+}*/
+li {
+  display: inline-block;
+  display: flex;
+  font-size: 19px;
+  justify-content: flex-start;
+  /*font-weight: bolder;*/
 }
 
 main {
@@ -70,12 +96,6 @@ main {
   padding-top: 11rem;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .slide {
   margin-top: 0rem;
   padding-top: 0rem;
@@ -83,24 +103,4 @@ main {
 .slide img {
   margin-top: 0%;
   height: 75vh;
-}
-
-.parrafoRedes {
-  text-decoration: none;
-}
-.parrafoRedes:hover {
-  text-decoration: underline;
-}
-
-/*
-.flex{
-    display: flex;
-
-}*/
-li {
-  display: inline-block;
-  display: flex;
-  font-size: 19px;
-  justify-content: flex-start;
-  /*font-weight: bolder;*/
 }/*# sourceMappingURL=style.css.map */

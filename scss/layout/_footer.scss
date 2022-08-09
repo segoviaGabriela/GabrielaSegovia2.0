@@ -12,3 +12,9 @@ footer{
     font-family: 'Merriweather', serif;
     margin-bottom: 0;
 }
+.parrafoRedes{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
