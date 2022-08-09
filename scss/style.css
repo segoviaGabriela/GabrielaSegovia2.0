@@ -63,7 +63,7 @@ main {
   left: 0;
   top: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
 }
 
 .main-content {
@@ -92,11 +92,11 @@ main {
   text-decoration: underline;
 }
 
-.flex {
-  display: flex;
-  justify-content: left;
-}
+/*
+.flex{
+    display: flex;
 
+}*/
 li {
   display: inline-block;
   display: flex;
