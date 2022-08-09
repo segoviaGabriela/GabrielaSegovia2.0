@@ -9,6 +9,18 @@ font-family: 'Merriweather', serif;
 font-family: 'PT Serif', serif;
 **/
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=PT+Serif&display=swap");
+h1, h2, h3 {
+  color: black;
+}
+
+h2, h3 {
+  margin-top: 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +41,7 @@ footer {
   flex-direction: column;*/
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 15px;
   background-color: pink;
   font-weight: bolder;
   color: black;
@@ -45,9 +57,11 @@ footer {
 }
 
 header {
+  width: 100%;
+  height: 0%;
+  padding: 0px;
   color: mediumvioletred;
   background-color: white;
-  grid-area: header;
 }
 
 .nav-item {

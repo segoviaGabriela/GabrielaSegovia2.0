@@ -1,7 +1,7 @@
 header{
+    @include medidas;
     color: mediumvioletred;
     background-color: white;
-    grid-area: header;
 }
 .nav-item{
     text-decoration: none;
