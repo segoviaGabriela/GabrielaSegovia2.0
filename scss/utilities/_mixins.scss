@@ -3,3 +3,9 @@
     height: $height;
     padding: $padding;
 }
+@mixin deco {
+    text-decoration: none;
+      &:hover{
+    text-decoration: underline;
+}
+}

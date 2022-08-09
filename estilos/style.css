@@ -46,7 +46,7 @@ footer {
   font-weight: bolder;
   color: black;
   font-family: "Merriweather", serif;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .parrafoRedes {
@@ -117,4 +117,11 @@ main {
 .slide img {
   margin-top: 0%;
   height: 75vh;
+}
+
+.destacados {
+  text-decoration: none;
+}
+.destacados:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

@@ -4,10 +4,7 @@ header{
     background-color: white;
 }
 .nav-item{
-    text-decoration: none;
-    &:hover{
-        text-decoration: underline;
-    }
+    @include deco;
 }
 .pink{
     background-color:$fondo;

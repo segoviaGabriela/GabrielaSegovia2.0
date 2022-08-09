@@ -25,3 +25,6 @@ main{
             height: 75vh;
         }
     }
+.destacados{
+    @include deco;
+}

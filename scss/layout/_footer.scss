@@ -8,11 +8,8 @@ footer{
     font-weight: bolder;
     color: black;
     font-family: 'Merriweather', serif;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 .parrafoRedes{
-    text-decoration: none;
-    &:hover{
-        text-decoration: underline;
-    }
+    @include deco;
 }
