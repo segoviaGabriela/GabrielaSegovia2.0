@@ -1,7 +1,7 @@
 header{
     @include medidas;
     color: mediumvioletred;
-    background-color: white;
+    background-color: pink;
 }
 .nav-item{
     @include deco;
@@ -9,15 +9,19 @@ header{
 .pink{
     background-color:$fondo;
 }
-/*
-.flex{
-    display: flex;
- 
-}*/
+
 li{
     display: inline-block;
     display: flex;
     font-size: 19px;
     justify-content: flex-start;
-    /*font-weight: bolder;*/
 }
+/*
+.navbar-light{
+    width: 100%;
+    margin: 0;
+}
+.navbar-brand{
+    width: 100%;
+    margin: 0;
+}*/

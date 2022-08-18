@@ -1,8 +1,5 @@
 footer{
-    /*
-    display: flex;
-    align-items: stretch;
-    flex-direction: column;*/
+    
     @include medidas (100%, 15px);
     background-color: $fondo;
     font-weight: bolder;

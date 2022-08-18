@@ -34,11 +34,14 @@ body {
   flex-direction: column;
 }
 
-footer {
-  /*
+.grillaGeneral {
   display: flex;
-  align-items: stretch;
-  flex-direction: column;*/
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+footer {
   width: 100%;
   height: 100%;
   padding: 15px;
@@ -61,7 +64,7 @@ header {
   height: 0%;
   padding: 0px;
   color: mediumvioletred;
-  background-color: white;
+  background-color: pink;
 }
 
 .nav-item {
@@ -75,19 +78,22 @@ header {
   background-color: pink;
 }
 
-/*
-.flex{
-    display: flex;
-
-}*/
 li {
   display: inline-block;
   display: flex;
   font-size: 19px;
   justify-content: flex-start;
-  /*font-weight: bolder;*/
 }
 
+/*
+.navbar-light{
+    width: 100%;
+    margin: 0;
+}
+.navbar-brand{
+    width: 100%;
+    margin: 0;
+}*/
 main {
   color: black;
   background-color: #FFE6E6;
@@ -104,19 +110,20 @@ main {
   top: 0;
   position: fixed;
   z-index: 10;
+  position: inherit;
 }
 
-.main-content {
-  padding-top: 11rem;
-}
-
+/*
+.main-content{
+        padding-top: 11rem;
+    }*/
 .slide {
   margin-top: 0rem;
   padding-top: 0rem;
 }
 .slide img {
   margin-top: 0%;
-  height: 75vh;
+  height: 60vh;
 }
 
 .destacados {
@@ -124,8 +131,4 @@ main {
 }
 .destacados:hover {
   text-decoration: underline;
-}
-
-a {
-  text-align: center;
 }/*# sourceMappingURL=style.css.map */
