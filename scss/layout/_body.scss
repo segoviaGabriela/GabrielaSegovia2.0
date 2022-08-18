@@ -4,10 +4,12 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: #FFE6E6;
 }
 .grillaGeneral{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
+    grid-area: grillaGeneral;
 }

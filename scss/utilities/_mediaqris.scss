@@ -1,0 +1,51 @@
+@media (max-width: 960px){
+    .grillaGeneral{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        grid-template-areas: 
+        "header "
+        "main"
+        "galeriaGrid"
+        "footer";
+    }
+    .generalGrid{
+        background-color: pink;
+        grid-template-columns: 50%;
+        grid-template-rows: 20%;
+        padding: 50%;
+      
+    }
+    .navbar-light{
+        width: 100%;
+        margin: 0;
+        }
+    .navbar-brand{
+        width: 100%;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .grillaGeneral{
+        margin: 0;
+        border: 8px solid black;
+        grid-template-areas: 
+        "header       header              header"
+        "main           main              main"           
+        "navbar-light  navbar-light       navbar-light"
+        "navbar-brand  navbar-brand       navbar-brand"
+        "footer        footer            footer";
+    }
+  
+    .navbar-light{
+    width: 100%;
+    margin: 0;
+    }
+    .navbar-brand{
+    width: 100%;
+    margin: 0;
+    }
+
+}

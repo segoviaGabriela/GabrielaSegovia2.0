@@ -11,11 +11,13 @@ font-family: 'PT Serif', serif;
 @import "./utilities/variables";
 @import "./utilities/extends";
 @import "./utilities/mixins";
+@import "./utilities/mediaqris";
 @import "./layout/reset";
 @import "./layout/body";
 @import "./layout/footer";
 @import "./layout/header";
 @import "./layout/main";
+
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=PT+Serif&display=swap');
 

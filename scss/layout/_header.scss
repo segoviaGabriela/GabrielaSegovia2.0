@@ -2,6 +2,8 @@ header{
     @include medidas;
     color: mediumvioletred;
     background-color: pink;
+    grid-area: header;
+
 }
 .nav-item{
     @include deco;
@@ -16,12 +18,11 @@ li{
     font-size: 19px;
     justify-content: flex-start;
 }
-/*
+
 .navbar-light{
-    width: 100%;
-    margin: 0;
+    grid-area: navbar-light;
 }
 .navbar-brand{
-    width: 100%;
-    margin: 0;
-}*/
+    grid-area:navbar-brand;
+}
+

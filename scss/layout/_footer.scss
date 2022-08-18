@@ -6,6 +6,7 @@ footer{
     color: black;
     font-family: 'Merriweather', serif;
     margin-bottom: 0px;
+    grid-area: footer;
 }
 .parrafoRedes{
     @include deco;
