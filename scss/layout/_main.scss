@@ -11,14 +11,10 @@ main{
         width: 100%;
         left: 0;
         top: 0;
-        /*position: fixed;*/
         z-index:10;
         position: inherit;
     }
-/*
-.main-content{
-        padding-top: 11rem;
-}*/
+
 .slide{
         margin-top: 0rem;
         padding-top: 0rem;
@@ -31,5 +27,17 @@ main{
     @include deco;
 }
 .card{
-    background-color: #FFE6E6;
+    background-color: white;
+}
+.volver{
+    color: black;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+p{
+    color: black;
+    display: flex;
+    justify-content: center;
 }
