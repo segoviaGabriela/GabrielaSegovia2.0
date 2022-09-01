@@ -10,4 +10,7 @@ footer{
 }
 .parrafoRedes{
     @include deco;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
 }

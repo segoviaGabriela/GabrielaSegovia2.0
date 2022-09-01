@@ -103,6 +103,9 @@ footer {
 
 .parrafoRedes {
   text-decoration: none;
+  display: flex;
+  justify-content: end;
+  justify-items: end;
 }
 .parrafoRedes:hover {
   text-decoration: underline;
@@ -190,12 +193,6 @@ main {
 }
 
 p {
-  color: black;
-  display: flex;
-  justify-content: center;
-}
-
-h5 {
   color: black;
   display: flex;
   justify-content: center;
