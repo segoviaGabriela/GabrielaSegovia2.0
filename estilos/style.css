@@ -189,7 +189,13 @@ main {
   margin-top: 50px;
 }
 
-p h5 {
+p {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+h5 {
   color: black;
   display: flex;
   justify-content: center;
